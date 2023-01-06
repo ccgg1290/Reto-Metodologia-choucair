@@ -1,0 +1,11 @@
+1. Realizar las consultas que considere pertinentes al cliente, que le permitan acotar correctamente el alcance.
+
+
+
+¿Cuales son los roles que se manejan en el aplicativo?
+¿Que permisos tiene cada rol?
+¿La pruebas deben hacerse para un rolo en especifico?
+¿Cuantos y cuales cursos se manejan?
+¿Se desea probar la fucionalidad en diferentes navegadores? 
+¿Se probara en una URL Publica o en que ambiente se probara?
+¿Si la URL no es publica, como nos conectamos a su intranet, VPN, Escritorio remoto, AWS  .. entre otros ?

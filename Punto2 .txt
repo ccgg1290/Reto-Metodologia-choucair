@@ -1,0 +1,13 @@
+2.Crear una Historia de Usuario de acuerdo a la funcionalidad entregada con mínimo 5 criterios de aceptación (Escoge una funcionalidad)
+
+ESC- 0001 -Consultar cursos  existentes
+Yo como usuario
+Quiero obtener todos los cursos disponibles
+Para  poder matricualarme al curso de mi preferencia
+
+CRITERIOS DE ACEPTACIÓN
+El aplicativo debe permitir la visualizacion de todos los cursos disponibles
+El aplicativo debe tener un link que redireccione a la especificacion de cada curso
+Cada curso debe tener su respectiva imagen 
+El aplicativo debe tener una caja de busqueda para buscar un curso en especifico
+Un curso en especifico debe tener : Nombre, curso, categoria, profesor y un boton para inscribirse al curso

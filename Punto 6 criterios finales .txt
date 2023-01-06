@@ -1,0 +1,85 @@
+							
+A. ¿Cree usted que puede diseñar casos de prueba sin tener la aplicación? ¿por qué?										
+										
+Si se podrian hacer casos de preuba sin tener la aplicacion siempre y cuando se tengan  reuniones con el ciente,  PO o lider del proyecto y  se explica detalladamente los requisitos y el funcionamineto del sistema, ademas seria muy importante tener una adecuada docuementacion. De acuerdo a lo anterior y teniendo en cuenta nuestra experiencia como Tester en otros proyectos probando aplicaciones similares, podemos darnos una idea de como deberia funcionar la aplicacion, eso si siempre enfocadonos en cumplir los requisitos del cliente sin extralimitarnos en nuestras fuciones.										
+
+
+
+										
+B. ¿Qué información o documentación considera importante para el inicio de las pruebas?										
+										
+Para empezar con el proceso de preubas es necesario:										
+Tener docuementacion tecnica del negocio y el aplicativo										
+Tener claro la necesidad que se quiere satisfacer										
+Tener claro el alcance del proyecto 										
+Tener claro y acordado con las partes a que escenario se debe llegar al ejecutar las preubas para dar un CP como conforme y en que casos no se daria conformidad										
+Tener claro los miembros del proyecto y el rol de cada uno, asi como la disponibilidad en el proyecto										
+Tener claro los riesgos del proyercto										
+Tener claro las restricciones del proyecto										
+Tener claro la estimacion del proyecto junto con su factor de ajuste										
+
+
+
+C. ¿si la documentación no es clara usted que haría? 
+
+Si la docuementacion no es clara hay que hablar con el PO o lider del proyecto, si aun asi no se solucionan las dudas, se debera buscar un espacio con el cliente para que el nos explique el funcionamiento y requisitos del aplicativo.
+
+
+
+										
+D. ¿Quién cree que es el responsable de que usted conozca el contexto de negocio y la aplicación a probar?										
+										
+El responsable de que conocozcamos el contexto del negocio y la aplicacion sera el PO o  lider del proyecto, En su defecto si no estuviese ninguno delos dos, hablariamos con el cliente 										
+
+
+
+
+										
+E.¿si entregara un informe de avance de sus pruebas que información relacionaría?										
+										
+Un informe de avance de las pruebas deberia tener la siguiente informacion:										
+										
+General										
+El modulo que se probo										
+El requisito - HU que se probaron										
+Version donde se probo										
+Ambiente donde se probo										
+										
+Resultados										
+Los escenarios  y casos de prueba que se probaron										
+Los escenarios  y casos de prueba que no se probaron con una breve explicacion del porque no se probaron										
+Los CP conformes										
+Los CP no conformes con una breve explicacion de porque no pasaron las pruebas 										
+Bugs reportados										
+										
+Novedades										
+Contratiempos u observaciones que afectaron la estimacion del proyecto 										
+										
+Recomendaciones										
+Si asi lo amerita se deja saber si existe una recomendacion del tipo Tecnico o alguna otra  para el  proyecto actual										
+										
+Conclusion 										
+Conlusion del proyecto, con un estado general del proyecto 										
+										
+Retroalimentacion										
+Se puede agregar una solicitud de feedback, para validar que embas partes quedaron conformes y deacuerdo con el estado actual de las preubas										
+
+
+
+
+
+
+
+
+										
+F. ¿si tuviera que entregar indicadores del proceso de pruebas que incluiría?										
+										
+Algunos indicadores de proceso:										
+										
+Conformidad de los CP vs CP totales										
+No conformidad  de los CP vs CP totales										
+Tiempo utilizado para dar confomridad a una prueba										
+Desfaces, demoras en la ejecucion de los  CP,										
+Bugs reportados VS bugs solucionados en una linea de timepo										
+										
+										
