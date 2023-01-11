@@ -1,0 +1,78 @@
+
+RETO SQL
+
+
+-- 5. Lista los nombres de los fabricantes ordenados de forma descendente.
+-- select nombre  from fabricante order by nombre desc;
+
+
+-- 6. Lista los nombres de los productos ordenados de manera Ascendente.
+-- select nombre  from producto order by nombre asc;
+
+
+-- 7. Lista el código de los fabricantes que tienen productos en la tabla producto,  mostrando los códigos sin repetición.
+-- select distinct(codigo)  from fabricante where codigo in (select codigo_fabricante from producto );
+
+
+-- 8. Traer los 3 productos que tienen menor precio.
+-- select * from producto order by precio asc limit 3;
+
+
+-- 9. Traer los cinco productos de mayor precio.
+-- select * from producto order by precio desc limit 5;
+
+
+
+-- 10. Realizar la inserción de tres nuevos productos.
+-- INSERT INTO producto VALUES(12, 'Teclado fx250', 150, 2);
+-- INSERT INTO producto VALUES(13, 'Diadema inalambrica', 300, 4);
+-- INSERT INTO producto VALUES(14, 'Mouse inalambrico', 150.99, 5);
+
+
+-- 11. Consultar los productos que sea impresora HP.
+-- select * from producto where nombre like '%impresora HP%';
+
+
+-- 12. Eliminar uno de los nuevos productos creados. 
+-- delete from producto where codigo = 14;
+
+
+-- 13. Actualizar el precio de uno de los productos creados.
+-- update producto set precio=400 where codigo=13;
+
+
+-- 14. Traer los productos que esten dentro del rango de precios 120 y 500.
+-- select * from producto where precio BETWEEN 120 and 500 order by precio desc;
+
+
+
+
+-- 15. Consultar el nombre de cada fabricante con los productos asociados a ellos incluso mostrando los fabricantes que no tienen algún producto asignado.
+
+/* select fab.nombre, pro.* from fabricante  fab
+left join producto  pro
+on(pro.codigo_fabricante=fab.codigo)
+order by pro.codigo_fabricante  desc;
+*/
+
+
+
+-- 16. Consultar cada producto con el nombre de cada fabricante.
+/*
+select  pro.*, fab.nombre from producto pro 
+inner join fabricante  fab
+on(fab.codigo=pro.codigo_fabricante)
+order by pro.codigo_fabricante  desc;
+*/
+
+
+
+-- 17. Traer los productos asociados cuyo fabricante es “Crucial” con su respectivo nombre.
+*/
+select  pro.nombre, fab.nombre from producto pro 
+inner join fabricante  fab
+on(fab.codigo=pro.codigo_fabricante)
+where fab.nombre ="Crucial"
+order by pro.codigo_fabricante  desc;
+/*
+
